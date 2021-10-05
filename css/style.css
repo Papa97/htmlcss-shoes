@@ -69,3 +69,28 @@ li a {
 #yellow {
   background-color: yellow;
 }
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+.tela img {
+  height: 600px;
+  vertical-align: middle;
+}
+
+.descrizione {
+  font-size: 90px;
+  line-height: 1.6;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.cyellow {
+  color: yellow;
+}
+
+.cgreen {
+  color: green;
+}
