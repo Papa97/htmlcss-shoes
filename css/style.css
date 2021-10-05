@@ -20,10 +20,9 @@ header {
 }
 
 nav {
-  float: left;
   position: fixed;
   top: 20px;
-  right: 50px;
+  right: 10px;
 }
 
 nav ul {
@@ -37,7 +36,7 @@ li a:visited {
 
 li a {
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 25px;
   display: inline-block;
 }
@@ -48,25 +47,10 @@ li a {
   color: black;
   background-color: white;
   border-radius: 50%;
+  display: inline-block;
+  margin: 0 10px;
+  border: 1px solid;
 }
-
-/* #pred {
-  position: fixed;
-  top: 30px;
-  right: 300px;
-}
-
-#pgreen {
-  position: fixed;
-  top: 30px;
-  right: 200px;
-}
-
-#pyellow {
-  position: fixed;
-  top: 30px;
-  right: 100px;
-} */
 
 /* main  */
 
@@ -101,7 +85,7 @@ main {
   transform: translate(-50%, -50%);
 }
 .container img {
-  height: 700px;
+  height: 500px;
   vertical-align: middle;
 }
 
