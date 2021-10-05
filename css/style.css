@@ -13,7 +13,7 @@ header {
   z-index: 1;
 }
 
-.clearfix {
+.clearfix::after {
   content: "";
   display: table;
   clear: both;
@@ -50,6 +50,7 @@ li a {
   display: inline-block;
   margin: 0 10px;
   border: 1px solid;
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
 /* main  */
