@@ -3,3 +3,69 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* header */
+header {
+  position: relative;
+}
+
+nav ul {
+  list-style: none;
+}
+
+li a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.el {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border-radius: 50%;
+}
+
+#pred {
+  position: fixed;
+  top: 30px;
+  right: 300px;
+}
+
+#pgreen {
+  position: fixed;
+  top: 30px;
+  right: 200px;
+}
+
+#pyellow {
+  position: fixed;
+  top: 30px;
+  right: 100px;
+}
+
+/* main  */
+.box {
+  height: 100vh;
+}
+
+#red {
+  background-color: red;
+}
+
+#green {
+  background-color: green;
+}
+
+#yellow {
+  background-color: yellow;
+}
