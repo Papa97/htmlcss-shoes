@@ -7,6 +7,10 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+html{
+  scroll-behavior: smooth;
+}
 /* header */
 header {
   position: relative;
@@ -39,6 +43,7 @@ li a {
   font-weight: 700;
   font-size: 25px;
   display: inline-block;
+  color: black;
 }
 
 .el {
